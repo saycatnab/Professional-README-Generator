@@ -68,11 +68,28 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    // fs - interacts with the local file system of PC 
+    // writeFileSync - function that creates or adds to the newly created file anything in ().
+    // path.join() - joins the things in the (), in this case, the working directory (Desktop\Professional-README-Generator) and the new README file.
+    // data is idk
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions).then((response) => {
+        console.log(`Generating README file ↻..
+    
+        □□□□□0%
 
+        ■■■□□60%
+
+        ■■■■□80%
+
+        ■■■■■100%
+        `)
+        writeToFile(`README.md`, generateMarkdown({...response}))
+    })
 }
 
 // function call to initialize program

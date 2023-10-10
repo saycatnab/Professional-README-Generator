@@ -1,8 +1,8 @@
-# test
+# Professional README Generator
   ![GitHub License](https://img.shields.io/badge/lisence-MIT-blue.svg)
 
   ### Description
-  test
+  Creating an application that generates a README file for the user
 
   ### Table of Contents
 
@@ -10,8 +10,7 @@
 
   * [Usage](#usage)
 
-   
-* [License](#license)
+  * [License](#license)
 
 
   * [Contributing](#constributing)
@@ -30,13 +29,15 @@
 
   ## Usage
 
-  test
+  Install and learn node.js
 
   ## License
 
+  This project is licensed under the MIT license
+
   ## Cntributing
 
-  test
+  Install and learn node.js
 
   ## Test
 
@@ -48,8 +49,8 @@
 
   ##Questions
 
-  If you have any questions about the repo open an issue or contact me derectly at test.
+  If you have any questions about the repo open an issue or contact me derectly at saysaygood83@gmail.com.
 
-  You can find more of my work at [test](https://github.com/test).
+  You can find more of my work at [saycatnab](https://github.com/saycatnab).
 
 

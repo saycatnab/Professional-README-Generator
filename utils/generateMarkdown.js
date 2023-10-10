@@ -12,7 +12,7 @@ function renderLicenseBadge(license){
 // So this v will confirm if theres a need to add in the full licnese [](#) or not.
 const renderLicense = (license) => {
   if(license !== "None"){
-    return `\n* [License](#license)\n`
+    return `* [License](#license)\n`
   }
   return ``
 }
@@ -32,7 +32,7 @@ function generateMarkdown(data) {
 
   * [Usage](#usage)
 
-   ${renderLicense(data.license)}
+  ${renderLicense(data.license)}
 
   * [Contributing](#constributing)
 
@@ -53,6 +53,8 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
+
+  This project is licensed under the ${data.license} license
 
   ## Cntributing
 
